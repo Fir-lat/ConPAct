@@ -1,0 +1,397 @@
+{
+  "protocol_version": "minigrid-v1",
+  "profiles": {
+    "BabyAI-BlockedUnlockPickup-v0": {
+      "rules": "BlockedUnlockPickupEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop",
+        "toggle"
+      ],
+      "max_steps": 68,
+      "max_total_calls": 136,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoTo-v0": {
+      "rules": "BabyAI-GoTo",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "toggle"
+      ],
+      "max_steps": 100,
+      "max_total_calls": 200,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToDoor-v0": {
+      "rules": "BabyAI-GoToDoor",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 42,
+      "max_total_calls": 84,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToLocal-v0": {
+      "rules": "BabyAI-GoToLocal",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToObj-v0": {
+      "rules": "BabyAI-GoToObj",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToRedBall-v0": {
+      "rules": "BabyAI-GoToRedBall",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToRedBallGrey-v0": {
+      "rules": "BabyAI-GoToRedBallGrey",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 64,
+      "max_total_calls": 128,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToRedBallNoDists-v0": {
+      "rules": "BabyAI-GoToRedBallNoDists",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 5,
+      "native_action_space_n": 7
+    },
+    "BabyAI-GoToRedBlueBall-v0": {
+      "rules": "BabyAI-GoToRedBlueBall",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 34,
+      "max_total_calls": 68,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "BabyAI-UnlockPickup-v0": {
+      "rules": "UnlockPickupEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop",
+        "toggle"
+      ],
+      "max_steps": 40,
+      "max_total_calls": 80,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-BlockedUnlockPickup-v0": {
+      "rules": "BlockedUnlockPickupEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop",
+        "toggle"
+      ],
+      "max_steps": 96,
+      "max_total_calls": 192,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-DistShift1-v0": {
+      "rules": "DistShiftEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 0,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-DoorKey-5x5-v0": {
+      "rules": "DoorKeyEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "toggle"
+      ],
+      "max_steps": 46,
+      "max_total_calls": 92,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-DoorKey-6x6-v0": {
+      "rules": "DoorKeyEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "toggle"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-DoorKey-8x8-v0": {
+      "rules": "DoorKeyEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "toggle"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-Dynamic-Obstacles-5x5-v0": {
+      "rules": "DynamicObstaclesEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 2,
+      "native_action_space_n": 3
+    },
+    "MiniGrid-Empty-5x5-v0": {
+      "rules": "EmptyEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 0,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-Fetch-5x5-N2-v0": {
+      "rules": "FetchEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-Fetch-8x8-N3-v0": {
+      "rules": "FetchEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-FourRooms-v0": {
+      "rules": "FourRoomsEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 34,
+      "max_total_calls": 68,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-GoToDoor-5x5-v0": {
+      "rules": "GoToDoorEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "done"
+      ],
+      "max_steps": 42,
+      "max_total_calls": 84,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-GoToObject-6x6-N2-v0": {
+      "rules": "GoToObjectEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "done"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-LavaCrossingS9N1-v0": {
+      "rules": "CrossingEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-LavaGapS5-v0": {
+      "rules": "LavaGapEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 0,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-PutNear-6x6-N2-v0": {
+      "rules": "PutNearEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-PutNear-8x8-N3-v0": {
+      "rules": "PutNearEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-RedBlueDoors-6x6-v0": {
+      "rules": "RedBlueDoorEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "toggle"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-RedBlueDoors-8x8-v0": {
+      "rules": "RedBlueDoorEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "toggle"
+      ],
+      "max_steps": 62,
+      "max_total_calls": 124,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-Unlock-v0": {
+      "rules": "UnlockEnv1",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop",
+        "toggle"
+      ],
+      "max_steps": 30,
+      "max_total_calls": 60,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    },
+    "MiniGrid-UnlockPickup-v0": {
+      "rules": "UnlockPickupEnv",
+      "actions": [
+        "left",
+        "right",
+        "forward",
+        "pickup",
+        "drop",
+        "toggle"
+      ],
+      "max_steps": 38,
+      "max_total_calls": 76,
+      "eval_levels": 6,
+      "native_action_space_n": 7
+    }
+  }
+}

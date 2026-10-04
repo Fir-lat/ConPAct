@@ -1,0 +1,58 @@
+{
+  "environment": "sokoban",
+  "run": {
+    "method": "conpact_i",
+    "discussion_rounds": 3,
+    "max_discussion_turns": 12,
+    "plan_samples": 2,
+    "history_frames": 3,
+    "assertion_visibility": "auto",
+    "system_intervention": null
+  },
+  "providers": {
+    "planner": {
+      "factory": "",
+      "options": {
+        "model": "",
+        "endpoint_env": "CONPACT_API_ENDPOINT",
+        "api_key_env": "CONPACT_API_KEY",
+        "temperature": 1.0,
+        "max_tokens": 4000
+      }
+    },
+    "actor": {
+      "factory": "",
+      "options": {
+        "model": "",
+        "endpoint_env": "CONPACT_API_ENDPOINT",
+        "api_key_env": "CONPACT_API_KEY",
+        "temperature": 1.0,
+        "max_tokens": 4000
+      }
+    },
+    "sandbox": {
+      "factory": "",
+      "options": {}
+    },
+    "teacher": {
+      "factory": "",
+      "options": {
+        "model": "",
+        "endpoint_env": "CONPACT_API_ENDPOINT",
+        "api_key_env": "CONPACT_API_KEY"
+      }
+    },
+    "reviewer": {
+      "factory": "",
+      "options": {
+        "model": "",
+        "endpoint_env": "CONPACT_API_ENDPOINT",
+        "api_key_env": "CONPACT_API_KEY"
+      }
+    },
+    "verifier": {
+      "factory": "",
+      "options": {}
+    }
+  }
+}
